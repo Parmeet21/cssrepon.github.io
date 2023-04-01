@@ -1,0 +1,10 @@
+.child-box{
+  width: 200px;height: 150px;background-color: blue;border: 2px red solid;margin: 4px;
+}
+.parent-box{
+    display: flex; flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+    .parent-box {display: block;}
+    
+  }
